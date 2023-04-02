@@ -1,0 +1,63 @@
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.header ul li{
+    display: inline;
+    color: #FFFF00;
+    float: left;
+}
+.header ul li a{
+    display: block;
+    color: #FFFF00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header ul li a.link_site_marvel{
+    float: right;
+}
+.header ul li a:hover{
+    background-color: #313131;
+}
+.header ul li p{
+    margin-right: 20px;
+}
+.header table{
+    color: #FFFF00;
+}
+body{
+    background-image: url(../img/lição1.png);
+}.imagem_hq{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 43%;
+    margin-top: 230px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: inline;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    display: inline;
+  }
+.card img{
+    width: 150px;
+    height: 200px;
+    display: flex;
+}
+
